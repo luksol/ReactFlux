@@ -50,10 +50,21 @@ export default defineConfig({
     chunkSizeWarningLimit: 1000,
     rollupOptions: {
       output: {
-        manualChunks: {
-          arco: ["@arco-design/web-react"],
-          highlight: ["highlight.js"],
-          react: ["react", "react-dom", "react-router"],
+        codeSplitting: {
+          groups: [
+            {
+              name: "arco",
+              test: /[\\/]node_modules[\\/](@arco-design\/web-react)[\\/]/,
+            },
+            {
+              name: "highlight",
+              test: /[\\/]node_modules[\\/](highlight\.js)[\\/]/,
+            },
+            {
+              name: "react",
+              test: /[\\/]node_modules[\\/](react|react-dom|react-router)[\\/]/,
+            },
+          ],
         },
       },
     },
