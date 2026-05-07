@@ -274,7 +274,9 @@
     "skip_mark_all_read_confirmation_label": "Bestätigung beim Alles-als-gelesen-Markieren überspringen",
     "skip_mark_all_read_confirmation_description": "Alle Artikel ohne Bestätigungsdialog als gelesen markieren",
     "mark_all_read_jump_to_next_label": "Nach Alles-als-gelesen-Markieren zum nächsten Ungelesenen springen",
-    "mark_all_read_jump_to_next_description": "Nach dem Markieren aller Artikel als gelesen automatisch zum nächsten Feed oder zur nächsten Kategorie mit ungelesenen Artikeln navigieren"
+    "mark_all_read_jump_to_next_description": "Nach dem Markieren aller Artikel als gelesen automatisch zum nächsten Feed oder zur nächsten Kategorie mit ungelesenen Artikeln navigieren",
+    "check_for_updates_label": "Nach Updates suchen",
+    "check_for_updates_description": "Benachrichtigung anzeigen, wenn eine neue Version auf GitHub verfügbar ist"
   },
   "appearance": {
     "theme_color_label": "Farbthema",
